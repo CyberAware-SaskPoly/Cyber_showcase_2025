@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CyberAware - Stay Safe Online</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-logo">
+  <span>Cyber Security Awareness Month Showcase 2025</span>
+  <img src="saskpolytech-logo.png" alt="Saskatchewan_Polytechnic_Logo.png" class="saskpolytech-logo" />
+</div>
+    <div class="nav-container">
+      <div class="nav-logo">
+        <span>Cyber Security Awareness Month Showcase 2025</span>
+      </div>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-controls="primary-navigation" aria-expanded="false">
+        <span class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </span>
+      </button>
+      <div id="primary-navigation" class="nav-menu">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#info" class="nav-link">Event Info</a>
+        <a href="#activities" class="nav-link">Activities</a>
+        <a href="#tools" class="nav-link">Tools</a>
+        <a href="#quiz" class="nav-link">Quiz</a>
+        <a href="#games" class="nav-link">Cyber Games</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Enhanced Hero Section - Original Content + Event Info (NO BUTTONS) -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <!-- Left Side - Original Hero Content (WITHOUT BUTTONS) -->
+      <div class="hero-text">
+        <h1>Stay Safe in the Digital World</h1>
+        <p>Learn essential cybersecurity skills, test your knowledge, and protect yourself from online threats.</p>
+
+        <!-- BUTTONS REMOVED AS PER ORIGINAL FILE -->
+
+        <!-- New Play & Win Section -->
+        <div class="play-win-section">
+          <div class="fido-key-promo">
+            <div class="fido-icon">
+              <i class="fas fa-key"></i>
+            </div>
+            <div class="fido-text">
+              <h3>Play & Win a FIDO2 Key!</h3>
+              <p>Complete challenges and games for a chance to win security hardware</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="organized-by">
+          <p><i class="fas fa-graduation-cap"></i> Organized by Cybersecurity Post Graduate Certificate Program Students</p>
+        </div>
+      </div>
+
+      <!-- Right Side - Compact Event Information Card -->
+      <div class="hero-event-side">
+        <div class="event-info-card-compact">
+          <div class="event-header">
+            <div class="event-icon-modern">
+              <i class="fas fa-shield-alt"></i>
+            </div>
+            <div class="event-title-section">
+              <h2>Event Information</h2>
+              <div class="event-badge">🎯 FREE EVENT</div>
+            </div>
+          </div>
+
+          <!-- Combined Event Details in Single Box -->
+          <div class="event-details-combined">
+            <div class="detail-group">
+              <div class="detail-item-inline">
+                <div class="detail-icon-small">
+                  <i class="fas fa-calendar-alt"></i>
+                </div>
+                <div class="detail-content-inline">
+                  <span class="detail-label">WHEN</span>
+                  <span class="detail-value">October 14-15, 2025</span>
+                </div>
+              </div>
+
+              <div class="detail-item-inline">
+                <div class="detail-icon-small">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="detail-content-inline">
+                  <span class="detail-label">WHERE</span>
+                  <span class="detail-value">SPSA Lounge - Main Street</span>
+                </div>
+              </div>
+
+              <div class="detail-item-inline">
+                <div class="detail-icon-small">
+                  <i class="fas fa-clock"></i>
+                </div>
+                <div class="detail-content-inline">
+                  <span class="detail-label">TIME</span>
+                  <span class="detail-value">9:30 AM - 3:00 PM Daily</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="event-description-modern">
+            <h4>✨ What to Expect</h4>
+            <ul>
+              <li><i class="fas fa-check-circle"></i> Interactive cybersecurity demos</li>
+              <li><i class="fas fa-check-circle"></i> Free FIDO2 security keys</li>
+              <li><i class="fas fa-check-circle"></i> Expert guidance & tips</li>
+              <li><i class="fas fa-check-circle"></i> Fun games & challenges</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Floating Background Icons -->
+    <div class="hero-background-icons">
+      <div class="floating-icon icon1"><i class="fas fa-lock"></i></div>
+      <div class="floating-icon icon2"><i class="fas fa-shield-alt"></i></div>
+      <div class="floating-icon icon3"><i class="fas fa-eye-slash"></i></div>
+      <div class="floating-icon icon4"><i class="fas fa-wifi"></i></div>
+      <div class="floating-icon icon5"><i class="fas fa-envelope"></i></div>
+      <div class="floating-icon icon6"><i class="fas fa-key"></i></div>
+    </div>
+  </section>
+
+  <!-- Info Carousel Section - Updated with 5 weeks -->
+  <section id="info" class="section carousel-section">
+    <div class="container">
+      <h2 class="section-title">Cybersecurity Awareness Weeks</h2>
+      <div class="carousel-wrapper">
+        <div class="swiper info-carousel">
+          <div class="swiper-wrapper">
+            <!-- Week 1: Preparing your future self today -->
+            <div class="swiper-slide">
+              <div class="info-card theme-card">
+                <div class="info-icon">🔐</div>
+                <h3>Week 1: Preparing your future self today</h3>
+                <p>Getting ready for the future starts with you – which is why we're kicking Cyber Month off by helping you secure your accounts. This week, we'll cover relatable and unexpected ways account security can help you today and in the future by discussing:</p>
+                <div class="week-activities">
+                  <ul>
+                    <li>passphrases and passwords</li>
+                    <li>password managers</li>
+                    <li>multi-factor authentication (MFA)</li>
+                    <li>social media accounts</li>
+                  </ul>
+                </div>
+                <div class="theme-highlight">Secure your accounts for the future!</div>
+              </div>
+            </div>
+
+            <!-- Week 2: Bringing your devices up to speed -->
+            <div class="swiper-slide">
+              <div class="info-card theme-card">
+                <div class="info-icon">📱</div>
+                <h3>Week 2: Bringing your devices up to speed</h3>
+                <p>Your devices are used for everything you do online. Securing them today can help you prepare for whatever the future throws at you like unexpected visitors, last minute travel, important presentations, and of course, cyber attacks. We'll explain how small steps can help you get ready for anything by discussing:</p>
+                <div class="week-activities">
+                  <ul>
+                    <li>securing smart devices</li>
+                    <li>storage and backups</li>
+                    <li>private and public networks</li>
+                  </ul>
+                </div>
+                <div class="theme-highlight">Prepare your devices for anything!</div>
+              </div>
+            </div>
+
+            <!-- Week 3: Cyber threats are evolving – are you? -->
+            <div class="swiper-slide">
+              <div class="info-card theme-card">
+                <div class="info-icon">⚠️</div>
+                <h3>Week 3: Cyber threats are evolving – are you?</h3>
+                <p>As online threats become more sophisticated, it's important that your knowledge does too. As certain tactics continue to evolve, knowing how to spot them can help prepare you for the future.</p>
+                <div class="week-activities">
+                  <h4>This week, we'll discuss:</h4>
+                  <ul>
+                    <li>phishing</li>
+                    <li>vishing</li>
+                    <li>reporting smishing through 7726 (SPAM)</li>
+                    <li>AI and sophisticated threats</li>
+                  </ul>
+                </div>
+                <div class="theme-highlight">Evolve with the threats!</div>
+              </div>
+            </div>
+
+            <!-- Week 4: Starting new habits -->
+            <div class="swiper-slide">
+              <div class="info-card theme-card">
+                <div class="info-icon">🔄</div>
+                <h3>Week 4: Starting new habits</h3>
+                <p>Cyber criminals are skilled at being misleading. Forming strong cyber safe habits now and knowing how to spot suspicious signs when it comes to files, downloads, and messages can help you stay safe in the future.</p>
+                <div class="week-activities">
+                  <h4>This week, we'll discuss:</h4>
+                  <ul>
+                    <li>malware</li>
+                    <li>ransomware</li>
+                    <li>anti-virus protection</li>
+                    <li>safe downloading</li>
+                    <li>AI</li>
+                  </ul>
+                </div>
+                <div class="theme-highlight">Build strong cyber habits!</div>
+              </div>
+            </div>
+
+            <!-- Week 5: Staying updated to stay safe -->
+            <div class="swiper-slide">
+              <div class="info-card theme-card">
+                <div class="info-icon">🔄</div>
+                <h3>Week 5: Staying updated to stay safe</h3>
+                <p>Online threats are always evolving, which means it's important that your systems and software are too. Stay updated to handle anything in the future by learning about:</p>
+                <div class="week-activities">
+                  <ul>
+                    <li>system updates</li>
+                    <li>S.C.R.U.B topics</li>
+                    <li>software updates</li>
+                  </ul>
+                </div>
+                <div class="theme-highlight">Stay updated, stay safe!</div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Booth Activities Section with Flip Cards -->
+  <section id="activities" class="section activities-section">
+    <div class="container">
+      <h2 class="section-title">Booth Activities</h2>
+      <p class="section-subtitle">Hands-on demos, tips, games, and guidance from cybersecurity mentors</p>
+
+      <div class="activities-grid">
+        <!-- Passwordless Authentication Campaign -->
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="activity-icon">🔑</div>
+              <h3 class="activity-title">Passwordless Authentication Campaign</h3>
+              <p class="activity-blurb">Demonstrating modern authentication methods to reduce reliance on passwords, including distributing free FIDO2 keys so participants can try them firsthand.</p>
+            </div>
+            <div class="flip-card-back">
+              <h3>What you'll try</h3>
+              <ul>
+                <li>Passwordless Authentication Setup Demo</li>
+                <li>Win a Free FIDO2 Key</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mobile & Laptop Security Advisory -->
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="activity-icon">💻</div>
+              <h3 class="activity-title">Mobile & Laptop Security Advisory</h3>
+              <p class="activity-blurb">Practical tips and guidance to help secure personal devices.</p>
+            </div>
+            <div class="flip-card-back">
+              <h3>What you'll learn</h3>
+              <ul>
+                <li>Essential Device Security Tips</li>
+                <li>Mobile App Analysis</li>
+                <li>Device Cybersecurity Assessment</li>
+                <li>Get help with Antivirus & Patch Updates</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- General Cyber Hygiene -->
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="activity-icon">🧼</div>
+              <h3 class="activity-title">General Cyber Hygiene</h3>
+              <p class="activity-blurb">Best practices for safe online behavior.</p>
+            </div>
+            <div class="flip-card-back">
+              <h3>Key practices you'll discover</h3>
+              <ul>
+                <li>Strong password creation strategies</li>
+                <li>Safe browsing techniques</li>
+                <li>Importance of software update</li>
+                <li>Phishing Email and link verification</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Gamification -->
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="activity-icon">🎮</div>
+              <h3 class="activity-title">Gamification</h3>
+              <p class="activity-blurb">Interactive challenges to make cybersecurity awareness fun and memorable.</p>
+            </div>
+            <div class="flip-card-back">
+              <h3>Fun challenges awaiting</h3>
+              <ul>
+                <li>Cybersecurity Quizzes</li>
+                <li>Phishing Detection Games</li>
+                <li>Password Strength Demo</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Check Your Digital Footprint -->
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="activity-icon">👥</div>
+              <h3 class="activity-title">Check Your Digital Footprint</h3>
+              <p class="activity-blurb">Helping participants assess and manage their online presence and privacy exposure.</p>
+            </div>
+            <div class="flip-card-back">
+              <h3>What you'll discover</h3>
+              <ul>
+                <li>Your digital footprint</li>
+                <li>Privacy settings optimization</li>
+                <li>Social media security Tips</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Career Advice -->
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="activity-icon">💼</div>
+              <h3 class="activity-title">Career Advice</h3>
+              <p class="activity-blurb">Explore roles and get guidance from cybersecurity practitioners.</p>
+            </div>
+            <div class="flip-card-back">
+              <h3>Career paths you'll explore</h3>
+              <ul>
+                <li>SOC analyst opportunities</li>
+                <li>Application security roles</li>
+                <li>GRC career pathways</li>
+                <li>Enroll in the Cybersecurity PG Certificate Program</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Tools Section -->
+  <section id="tools" class="section tools-section">
+    <div class="container">
+      <h2 class="section-title">Interactive Security Tools</h2>
+      <p class="section-subtitle">Test and improve your cybersecurity awareness</p>
+
+      <div class="tools-grid">
+        <!-- Password Strength Checker -->
+        <div class="tool-card">
+          <div class="tool-icon">
+            <i class="fas fa-lock"></i>
+          </div>
+          <h3>Password Strength Checker</h3>
+          <p>Test how secure your passwords really are</p>
+          <div class="password-checker">
+            <div class="password-input-container">
+              <input type="password" id="passwordInput" placeholder="Enter a password to test">
+              <button onclick="togglePasswordVisibility()" class="toggle-btn" type="button" aria-label="Toggle password visibility">
+                <i class="fas fa-eye" id="eyeIcon"></i>
+              </button>
+            </div>
+            <div class="strength-meter">
+              <div class="strength-bar" id="strengthBar"></div>
+            </div>
+            <div class="strength-text" id="strengthText">Enter a password</div>
+            <div class="password-tips">
+              <h4>Strong Password Tips:</h4>
+              <ul>
+                <li>Use at least 12 characters</li>
+                <li>Mix uppercase and lowercase letters</li>
+                <li>Include numbers and special characters</li>
+                <li>Avoid common words and patterns</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Phishing Email Detector -->
+        <div class="tool-card">
+          <div class="tool-icon">
+            <i class="fas fa-envelope-open-text"></i>
+          </div>
+          <h3>Phishing Email Detector</h3>
+          <p>Learn to spot suspicious emails</p>
+          <div class="email-examples">
+            <button class="email-btn" onclick="showEmail('legit')">Show Legitimate Email</button>
+            <button class="email-btn" onclick="showEmail('phishing')">Show Phishing Email</button>
+            <div class="email-display" id="emailDisplay">
+              <p>Click a button above to see email examples</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Security Score Calculator -->
+        <div class="tool-card">
+          <div class="tool-icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <h3>Security Score Calculator</h3>
+          <p>Evaluate your overall security posture</p>
+          <div class="security-quiz">
+            <div class="quiz-question" id="securityQuestion">
+              <p>Do you use two-factor authentication on your important accounts?</p>
+              <div class="security-options">
+                <button class="security-btn" onclick="updateSecurityScore(2)">Always</button>
+                <button class="security-btn" onclick="updateSecurityScore(1)">Sometimes</button>
+                <button class="security-btn" onclick="updateSecurityScore(0)">Never</button>
+              </div>
+            </div>
+            <div class="security-score" id="securityScore">
+              <span>Your Security Score: <span id="scoreValue">0</span>/10</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quiz Section -->
+  <section id="quiz" class="section quiz-section">
+    <div class="container">
+      <h2 class="section-title">Cybersecurity Knowledge Quiz</h2>
+      <p class="section-subtitle">Test your knowledge of cybersecurity best practices</p>
+
+      <div class="quiz-container">
+        <div class="quiz-header">
+          <div class="quiz-progress">
+            <div class="progress-bar">
+              <div class="progress-fill" id="progressBar"></div>
+            </div>
+            <span class="question-counter">Question <span id="currentQ">1</span> of <span id="totalQ">10</span></span>
+          </div>
+        </div>
+
+        <div class="quiz-content" id="quizContent">
+          <div class="question-card">
+            <h3 id="questionText">Click 'Start Quiz' to begin!</h3>
+            <div class="options" id="optionsContainer"></div>
+            <div class="quiz-controls">
+              <button id="startBtn" class="btn btn-primary" onclick="startQuiz()">Start Quiz</button>
+              <button id="nextBtn" class="btn btn-secondary" onclick="nextQuestion()" style="display: none;">Next Question</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="quiz-results" id="quizResults" style="display: none;">
+          <h3>Quiz Complete!</h3>
+          <div class="results-summary">
+            <div class="score-circle">
+              <span id="finalScore">0</span>
+              <span class="score-total">/ 10</span>
+            </div>
+            <div class="results-text">
+              <h4 id="resultsTitle">Great Job!</h4>
+              <p id="resultsMessage">You've demonstrated good cybersecurity knowledge.</p>
+            </div>
+          </div>
+          <button class="btn btn-primary" onclick="restartQuiz()">Take Quiz Again</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cyber Games Section - 2x2 Grid -->
+  <section id="games" class="section games-section">
+    <div class="container">
+      <h2 class="section-title">Interactive Cyber Games</h2>
+      <p class="section-subtitle">Learn cybersecurity through fun and engaging games</p>
+
+      <div class="games-grid-2x2">
+        <div class="game-card" onclick="window.open('https://crowdparty.app/featured/cybersecurity-awareness-month-party', '_blank')">
+          <div class="game-icon">
+            <i class="fas fa-users-cog"></i>
+          </div>
+          <h3>Cybersecurity Awareness Party</h3>
+          <p>Join an interactive multiplayer cybersecurity awareness experience with other participants.</p>
+          <div class="game-type">Multiplayer Experience</div>
+          <div class="play-button">
+            <i class="fas fa-play"></i> Play Now
+          </div>
+        </div>
+
+        <div class="game-card" onclick="window.open('https://securityawareness.dcsa.mil/cdse/multimedia/games/cybertrivia/index.html', '_blank')">
+          <div class="game-icon">
+            <i class="fas fa-question-circle"></i>
+          </div>
+          <h3>Cyber Security Trivia</h3>
+          <p>Test your cybersecurity knowledge with challenging trivia questions from security experts.</p>
+          <div class="game-type">Trivia Challenge</div>
+          <div class="play-button">
+            <i class="fas fa-play"></i> Play Now
+          </div>
+        </div>
+
+        <div class="game-card" onclick="window.open('https://securityawareness.dcsa.mil/cdse/multimedia/games/wordfinds/index.html?request=cyber-1', '_blank')">
+          <div class="game-icon">
+            <i class="fas fa-search"></i>
+          </div>
+          <h3>Cybersecurity Word Search</h3>
+          <p>Find hidden cybersecurity terms and concepts in this engaging word puzzle game.</p>
+          <div class="game-type">Word Puzzle</div>
+          <div class="play-button">
+            <i class="fas fa-play"></i> Play Now
+          </div>
+        </div>
+
+        <div class="game-card" onclick="window.open('https://app.livingsecurity.com/player?contentid=2v8oU5IkcbHj8fMWUzHTMs', '_blank')">
+          <div class="game-icon">
+            <i class="fas fa-shield-virus"></i>
+          </div>
+          <h3>Security Simulation</h3>
+          <p>Experience realistic cybersecurity scenarios and learn how to respond to various threats.</p>
+          <div class="game-type">Interactive Simulation</div>
+          <div class="play-button">
+            <i class="fas fa-play"></i> Play Now
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sponsors Section - Updated Roles -->
+  <section id="sponsors" class="section sponsors-section">
+    <div class="container">
+      <h2 class="section-title">Event Sponsors</h2>
+      <p class="section-subtitle">Thank you to our partners who make this showcase possible</p>
+
+      <div class="sponsors-grid">
+        <div class="sponsor-card authentrend-sponsor">
+          <div class="sponsor-logo authentrend-logo">
+            <img src="Authentrend Logo.svg" alt="AuthenTrend Logo" />
+          </div>
+          <h3>AuthenTrend</h3>
+          <p class="sponsor-role">Technology Partner</p>
+          <p>Leading provider of FIDO2 security keys and passwordless authentication solutions for modern cybersecurity.</p>
+        </div>
+
+        <div class="sponsors-grid">
+        <div class="sponsor-card authentrend-sponsor">
+          <div class="sponsor-logo authentrend-logo">
+            <img src="Authentrend Logo.svg" alt="AuthenTrend Logo" />
+          </div>
+          <h3>AuthenTrend</h3>
+          <p class="sponsor-role">Technology Partner</p>
+          <p>Leading provider of FIDO2 security keys and passwordless authentication solutions for modern cybersecurity.</p>
+        </div>
+
+        <div class="sponsors-grid">
+        <div class="sponsor-card authentrend-sponsor">
+          <div class="sponsor-logo authentrend-logo">
+            <img src="Authentrend Logo.svg" alt="AuthenTrend Logo" />
+          </div>
+          <h3>AuthenTrend</h3>
+          <p class="sponsor-role">Technology Partner</p>
+          <p>Leading provider of FIDO2 security keys and passwordless authentication solutions for modern cybersecurity.</p>
+        </div>
+
+        <div class="sponsors-grid">
+        <div class="sponsor-card authentrend-sponsor">
+          <div class="sponsor-logo authentrend-logo">
+            <img src="Authentrend Logo.svg" alt="AuthenTrend Logo" />
+          </div>
+          <h3>AuthenTrend</h3>
+          <p class="sponsor-role">Technology Partner</p>
+          <p>Leading provider of FIDO2 security keys and passwordless authentication solutions for modern cybersecurity.</p>
+        </div>
+        
+      <div class="sponsors-grid">
+        <div class="sponsor-card authentrend-sponsor">
+          <div class="sponsor-logo authentrend-logo">
+            <img src="Authentrend Logo.svg" alt="AuthenTrend Logo" />
+          </div>
+          <h3>AuthenTrend</h3>
+          <p class="sponsor-role">Technology Partner</p>
+          <p>Leading provider of FIDO2 security keys and passwordless authentication solutions for modern cybersecurity.</p>
+        </div>
+
+        <div class="sponsor-card ironspear-sponsor">
+          <div class="sponsor-logo ironspear-logo">
+            <img src="iron-spear-logo-stacked-canada-pride.png" alt="Iron Spear Logo" />
+          </div>
+          <h3>Iron Spear</h3>
+          <p class="sponsor-role">Cybersecurity Risk Advisory</p>
+          <p>Canadian-owned cybersecurity training and consulting company, specializing in hands-on security education and penetration testing.</p>
+        </div>
+
+        <div class="sponsor-card token2-sponsor">
+          <div class="sponsor-logo token2-logo">
+            <img src="logo-white.png" alt="Token2 Swiss Made Software Logo" />
+          </div>
+          <h3>Token2</h3>
+          <p class="sponsor-role">Technology Partner</p>
+          <p>Swiss-made two-factor authentication tokens and security software solutions for enterprise and individual users.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>CyberAware</h4>
+          <p>Empowering students with cybersecurity knowledge to stay safe in the digital world.</p>
+        </div>
+        <div class="footer-section">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="https://www.getcybersafe.gc.ca/">Get Cyber Safe</a></li>
+            <li><a href="https://www.cyber.gc.ca/">Cyber Centre</a></li>
+            <li><a href="https://www.cisa.gov/cybersecurity">CISA Cybersecurity</a></li>
+            <li><a href="https://staysafeonline.org/">Stay Safe Online</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Contact</h4>
+          <p>Visit our booth during the showcase to learn more!</p>
+          <p>SPSA Lounge - Main Street</p>
+          <p>October 14-15, 2025</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 CyberAware. Educational purposes only.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
